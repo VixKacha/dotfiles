@@ -32,6 +32,10 @@ chmod +x install.sh
 ## Screenshots
 ![sc1](screenshots/sc1.png)
 ![sc2](screenshots/sc2.png)
+## To-do
+- [ ] Fix sizing on startup apps
+- [ ] Find all the bugs and holes in the repo(impossible)
+- [ ] Keybinds table
 ## Credits
 Wallpaper - [Link](https://github.com/errordotfiles/awesome-dotfiles/tree/dotfiles)
 
