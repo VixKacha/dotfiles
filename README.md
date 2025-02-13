@@ -27,7 +27,8 @@ chmod +x install.sh
 ```
 
 ## Screenshots
-
+![sc1](screenshots/)
+![sc2](screenshots/)
 ## Credits
 This guys dotfiles for the waybar - [Link](https://github.com/errordotfiles/awesome-dotfiles/tree/dotfiles)
 
