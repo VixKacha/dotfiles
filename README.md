@@ -33,7 +33,7 @@ chmod +x install.sh
 ![sc1](screenshots/sc1.png)
 ![sc2](screenshots/sc2.png)
 ## Credits
-This guys dotfiles for the waybar - [Link](https://github.com/errordotfiles/awesome-dotfiles/tree/dotfiles)
+Wallpaper - [Link](https://github.com/errordotfiles/awesome-dotfiles/tree/dotfiles)
 
 [ML4W's hyprland starter](https://github.com/mylinuxforwork/hyprland-starter) - Definately start with these if you wanna make your own config and have no idea what youre doing
 
