@@ -34,6 +34,7 @@ chmod +x install.sh
 ![sc2](screenshots/sc2.png)
 ## To-do
 - [ ] Fix sizing on startup apps
+- [ ] Fix the alakazam image weirdly changing size every time you start neofetch
 - [ ] Find all the bugs and holes in the repo(impossible)
 - [ ] Keybinds table
 ## Credits
