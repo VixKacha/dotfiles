@@ -1,3 +1,6 @@
+# Disclaimer
+Some things about it are still incomplete (like .config/hypr/autostart.conf - its inconsistent in the sizing for some reason). Just use it if you are willing to figure things out. Feel free to add pull requests if you find something to fix.
+
 # Tools
 
 My yellow dotfiles for [hyprland](https://hyprland.org/) :)
