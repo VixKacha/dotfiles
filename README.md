@@ -20,7 +20,7 @@ Icon theme - [Material black mango NUMIX flat](https://www.gnome-look.org/p/1333
 Brave (Chrome) theme - [Black Yellow Flat](https://chromewebstore.google.com/detail/black-yellow-flat/hanlhmlmbgbpnnaiddofndfapnklikpp)
 
 ## Installation
-The install script will back up your old dotifles to ~/old-dotfiles-backup
+The install script will back up your old dotifles to ~/old-dotfiles-backup-365 (there is no way you already have this folder xD)
 
 Clone this repo to ~/dotfiles
 
