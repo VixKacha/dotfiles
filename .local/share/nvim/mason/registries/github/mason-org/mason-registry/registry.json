@@ -752,7 +752,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:cargo/bacon-ls@0.15.0"
+      "id": "pkg:cargo/bacon-ls@0.16.0"
     },
     "bin": {
       "bacon-ls": "cargo:bacon-ls"
@@ -1397,7 +1397,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:cargo/cairo-language-server@2.9.2"
+      "id": "pkg:cargo/cairo-language-server@2.9.3"
     },
     "bin": {
       "cairo-language-server": "cargo:cairo-language-server"
@@ -1486,7 +1486,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/cfn-lint@1.24.0"
+      "id": "pkg:pypi/cfn-lint@1.25.1"
     },
     "bin": {
       "cfn-lint": "pypi:cfn-lint"
@@ -2363,7 +2363,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40github/copilot-language-server@1.270.0"
+      "id": "pkg:npm/%40github/copilot-language-server@1.271.0"
     },
     "bin": {
       "copilot-language-server": "npm:copilot-language-server"
@@ -2556,7 +2556,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:generic/cqframework/cql-language-server@v3.3.1",
+      "id": "pkg:generic/cqframework/cql-language-server@v3.4.0",
       "download": {
         "files": {
           "cql-ls-service.jar": "https://repo1.maven.org/maven2/org/opencds/cqf/cql/ls/cql-ls-service/{{ version | strip_prefix \"v\" }}/cql-ls-service-{{ version | strip_prefix \"v\" }}.jar"
@@ -3043,7 +3043,7 @@
       "Runtime"
     ],
     "source": {
-      "id": "pkg:github/denoland/deno@v2.1.9",
+      "id": "pkg:github/denoland/deno@v2.1.10",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -3452,7 +3452,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/glehmann/earthlyls@0.5.3",
+      "id": "pkg:github/glehmann/earthlyls@0.5.5",
       "asset": [
         {
           "target": "linux_x64",
@@ -3829,7 +3829,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/WhatsApp/erlang-language-platform@2025-01-21",
+      "id": "pkg:github/WhatsApp/erlang-language-platform@2025-02-13",
       "asset": [
         {
           "target": "linux_x64_gnu",
@@ -5344,7 +5344,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/golangci/golangci-lint@v1.64.4",
+      "id": "pkg:github/golangci/golangci-lint@v1.64.5",
       "asset": [
         {
           "target": "linux_armv6l",
@@ -5731,7 +5731,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/elijah-potter/harper@v0.20.0",
+      "id": "pkg:github/elijah-potter/harper@v0.21.1",
       "asset": [
         {
           "target": "linux_x64_gnu",
@@ -7753,7 +7753,7 @@
     ],
     "categories": [],
     "source": {
-      "id": "pkg:npm/markmap-cli@0.18.9"
+      "id": "pkg:npm/markmap-cli@0.18.10"
     },
     "bin": {
       "markmap": "npm:markmap"
@@ -7877,7 +7877,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:cargo/mdsf@0.5.0"
+      "id": "pkg:cargo/mdsf@0.5.1"
     },
     "bin": {
       "mdsf": "cargo:mdsf"
@@ -9353,7 +9353,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/phpstan/phpstan@2.1.4",
+      "id": "pkg:github/phpstan/phpstan@2.1.5",
       "asset": {
         "file": "phpstan.phar"
       }
@@ -9480,7 +9480,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:npm/prettier@3.5.0"
+      "id": "pkg:npm/prettier@3.5.1"
     },
     "bin": {
       "prettier": "npm:prettier"
@@ -11856,7 +11856,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/sorbet@0.5.11823",
+      "id": "pkg:gem/sorbet@0.5.11826",
       "supported_platforms": [
         "unix"
       ]
@@ -13468,7 +13468,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/trufflesecurity/trufflehog@v3.88.7",
+      "id": "pkg:github/trufflesecurity/trufflehog@v3.88.8",
       "asset": [
         {
           "target": "darwin_x64",
@@ -13588,7 +13588,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40typespec/compiler@0.65.1"
+      "id": "pkg:npm/%40typespec/compiler@0.65.2"
     },
     "bin": {
       "tsp-server": "npm:tsp-server"
@@ -13764,7 +13764,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/crate-ci/typos@v1.29.5",
+      "id": "pkg:github/crate-ci/typos@v1.29.7",
       "asset": [
         {
           "target": "darwin_x64",
