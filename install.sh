@@ -20,6 +20,30 @@ else
 	echo "Skipping additional packages."
 fi
 
+echo "Backing up old dotfiles"
+cd ~
+mkdir old-dotfiles-backup
+sudo mv ~/.config/hypr ~/old-dotfiles-backup
+sudo mv ~/.config/kitty ~/old-dotfiles-backup
+sudo mv ~/.config/ml4w ~/old-dotfiles-backup
+sudo mv ~/.config/ml4w-hyprland-settings ~/old-dotfiles-backup
+sudo mv ~/.config/neofetch ~/old-dotfiles-backup
+sudo mv ~/.config/nvim ~/old-dotfiles-backup
+sudo mv ~/.config/rofi ~/old-dotfiles-backup
+sudo mv ~/.config/waybar ~/old-dotfiles-backup
+sudo mv ~/.config/wlogout ~/old-dotfiles-backup
+echo "Old dotfiles backed up to ~/old-dotfiles-backup"
+
+echo "Using stow to make symlinks - THERE WILL BE ERRORS HERE"
 cd ~/dotfiles
 stow .
-echo "Done! Config installed"
+echo "Success"
+
+echo "Copying themes"
+cd ~
+mkdir .themes
+mkdir .icons
+cp ~/dotfiles/.themes/Material-Black-Mango ~/.themes/
+cp ~/dotfiles/.icons/Material-Black-Mango-Numix-FLAT ~/.icons
+
+echo "Finished! It should all be working now (fingers crossed)"
