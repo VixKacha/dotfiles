@@ -22,17 +22,17 @@ fi
 
 echo "Backing up old dotfiles"
 cd ~
-mkdir old-dotfiles-backup
-mv ~/.config/hypr ~/old-dotfiles-backup
-mv ~/.config/kitty ~/old-dotfiles-backup
-mv ~/.config/ml4w ~/old-dotfiles-backup
-mv ~/.config/ml4w-hyprland-settings ~/old-dotfiles-backup
-mv ~/.config/neofetch ~/old-dotfiles-backup
-mv ~/.config/nvim ~/old-dotfiles-backup
-mv ~/.config/rofi ~/old-dotfiles-backup
-mv ~/.config/waybar ~/old-dotfiles-backup
-mv ~/.config/wlogout ~/old-dotfiles-backup
-echo "Old dotfiles backed up to ~/old-dotfiles-backup"
+mkdir old-dotfiles-backup-365
+mv ~/.config/hypr ~/old-dotfiles-backup-365
+mv ~/.config/kitty ~/old-dotfiles-backup-365
+mv ~/.config/ml4w ~/old-dotfiles-backup-365
+mv ~/.config/ml4w-hyprland-settings ~/old-dotfiles-backup-365
+mv ~/.config/neofetch ~/old-dotfiles-backup-365
+mv ~/.config/nvim ~/old-dotfiles-backup-365
+mv ~/.config/rofi ~/old-dotfiles-backup-365
+mv ~/.config/waybar ~/old-dotfiles-backup-365
+mv ~/.config/wlogout ~/old-dotfiles-backup-365
+echo "Old dotfiles backed up to ~/old-dotfiles-backup-365"
 
 echo "Using stow to make symlinks - THERE WILL BE ERRORS HERE"
 cd ~/dotfiles
