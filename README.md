@@ -22,7 +22,7 @@ Clone this repo to ~/dotfiles
 cd ~
 mkdir dotfiles
 cd dotfiles
-git clone https://www.makeareadme.com/
+git clone https://github.com/VixKacha/dotfiles
 ```
 Make install.sh executable and run it
 ```bash
