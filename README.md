@@ -17,6 +17,8 @@ GTK theme - [Material black mango](https://www.gnome-look.org/p/1316887)
 
 Icon theme - [Material black mango NUMIX flat](https://www.gnome-look.org/p/1333360)
 
+Vrave (Chrome) theme - [Black Yellow Flat](https://chromewebstore.google.com/detail/black-yellow-flat/hanlhmlmbgbpnnaiddofndfapnklikpp)
+
 ## Installation
 **The install script will delete your old dotfiles in place of new ones, it migh be a good idea to back your old dotfiles up using [stow](https://www.youtube.com/watch?v=y6XCebnB9gs)**
 
