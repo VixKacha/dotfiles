@@ -37,6 +37,8 @@ chmod +x install.sh
 ## Screenshots
 ![sc1](screenshots/sc1.png)
 ![sc2](screenshots/sc2.png)
+![sc3](screenshots/sc3.png)
+![sc4](screenshots/sc4.png)
 ## To-do
 - [ ] Fix sizing on startup apps
 - [ ] Fix the alakazam image weirdly changing size every time you start neofetch
