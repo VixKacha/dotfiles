@@ -42,7 +42,7 @@ chmod +x install.sh
 ## To-do
 - [ ] Fix sizing on startup apps
 - [ ] Fix the alakazam image weirdly changing size every time you start neofetch
-- [ ] Find all the bugs and holes in the repo(impossible)
+- [ ] Find other bugs in the config and improve on it
 - [ ] Keybinds table
 ## Credits
 Wallpaper - [Link](https://github.com/errordotfiles/awesome-dotfiles/tree/dotfiles)
