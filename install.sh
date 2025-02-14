@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Installing packages..."
-sudo pacman -S --needed hyprland waybar rofi hyprpaper hyprlock wlogout neofetch kitty NetworkManager alsa-utils pavucontrol cmatrix neovim kwrite thunar base-devel git fftw alsa-lib iniparser pulseaudio pkgconf nano stow
+sudo pacman -S --needed hyprland waybar rofi hyprpaper hyprlock wlogout neofetch kitty NetworkManager alsa-utils pavucontrol cmatrix neovim thunar base-devel git fftw alsa-lib iniparser pulseaudio pkgconf nano stow
 echo "Success"
 
 echo "Installing dependencies..."
@@ -13,7 +13,7 @@ echo "Success"
 read -p "Do you want to install additional packages?(this is for me, you probably dont want/need these) (y/[N]): " INSTALL_ADDITIONAL
 if [[ "$INSTALL_ADDITIONAL" == "y" || "$INSTALL_ADDITIONAL" == "Y" ]]; then
         echo "Installing additional packages... "
-        sudo pacman -S --needed gcc python okular
+        sudo pacman -S --needed python okular kwrite
 	yay -S --needed spotify spiceify github-desktop-bin spotify-adblock brave-bin vesktop shotcut sidequest-bin visual-studio-code-bin
 	echo "Success"
 else
@@ -23,15 +23,15 @@ fi
 echo "Backing up old dotfiles"
 cd ~
 mkdir old-dotfiles-backup
-sudo mv ~/.config/hypr ~/old-dotfiles-backup
-sudo mv ~/.config/kitty ~/old-dotfiles-backup
-sudo mv ~/.config/ml4w ~/old-dotfiles-backup
-sudo mv ~/.config/ml4w-hyprland-settings ~/old-dotfiles-backup
-sudo mv ~/.config/neofetch ~/old-dotfiles-backup
-sudo mv ~/.config/nvim ~/old-dotfiles-backup
-sudo mv ~/.config/rofi ~/old-dotfiles-backup
-sudo mv ~/.config/waybar ~/old-dotfiles-backup
-sudo mv ~/.config/wlogout ~/old-dotfiles-backup
+mv ~/.config/hypr ~/old-dotfiles-backup
+mv ~/.config/kitty ~/old-dotfiles-backup
+mv ~/.config/ml4w ~/old-dotfiles-backup
+mv ~/.config/ml4w-hyprland-settings ~/old-dotfiles-backup
+mv ~/.config/neofetch ~/old-dotfiles-backup
+mv ~/.config/nvim ~/old-dotfiles-backup
+mv ~/.config/rofi ~/old-dotfiles-backup
+mv ~/.config/waybar ~/old-dotfiles-backup
+mv ~/.config/wlogout ~/old-dotfiles-backup
 echo "Old dotfiles backed up to ~/old-dotfiles-backup"
 
 echo "Using stow to make symlinks - THERE WILL BE ERRORS HERE"
