@@ -13,6 +13,10 @@ Wallpaper - [Hyprpaper](https://github.com/hyprwm/hyprpaper)
 
 App launcher - [Rofi](https://github.com/davatorium/rofi)
 
+GTK theme - [Material black mango](https://www.gnome-look.org/p/1316887)
+
+Icon theme - [Material black mango NUMIX flat](https://www.gnome-look.org/p/1333360)
+
 ## Installation
 **The install script will delete your old dotfiles in place of new ones, it migh be a good idea to back your old dotfiles up using [stow](https://www.youtube.com/watch?v=y6XCebnB9gs)**
 
