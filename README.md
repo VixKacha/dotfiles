@@ -14,7 +14,8 @@ Wallpaper - [Hyprpaper](https://github.com/hyprwm/hyprpaper)
 App launcher - [Rofi](https://github.com/davatorium/rofi)
 
 ## Installation
-*The install script will delete your old dotfiles in place of new ones, it migh be a good idea to back your old dotfiles up using [stow](https://www.youtube.com/watch?v=y6XCebnB9gs)*
+**The install script will delete your old dotfiles in place of new ones, it migh be a good idea to back your old dotfiles up using [stow](https://www.youtube.com/watch?v=y6XCebnB9gs)**
+
 Clone this repo to ~/dotfiles
 
 ```bash
